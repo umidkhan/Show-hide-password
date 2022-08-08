@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+body {
+    background-color: aqua;
+}
+
+.container {
+    /* position: relative; */
+    width: 90vw;
+    display: flex;
+    text-align: center;
+    margin-left: 50px;
+}
+
+input {
+    margin-top: 50px;
+    /* height: 3rem; */
+    /* padding: 0.5rem 1rem; */
+    font-size: 1.5rem;
+    padding: auto;
+    border-radius: 10px;
+    border: none;
+}
+
+button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 50px;
+    margin-top: 5px;
+    background-color: lime;
+    border-radius: 20px;
+    border: none;
+}
+
+button.active {
+    background: red;
+}
+
+
